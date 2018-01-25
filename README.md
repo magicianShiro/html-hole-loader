@@ -2,7 +2,7 @@
 
 > simple html layout loader for webpack
 
-> modified from html-layout-loader
+> modified from html-hole-loader
 
 ## Install
 
@@ -47,7 +47,7 @@
   ```javascript
   {
     test: /\.(html)$/,
-    loader: 'html-layout-loader'
+    loader: 'html-hole-loader'
   },
   ```
   B. setting default layout in loader options, so you don't do any thing in html
@@ -59,7 +59,7 @@
   ```javascript
   {
     test: /\.(html)$/,
-    loader: 'html-layout-loader',
+    loader: 'html-hole-loader',
     include: htmlPath, // the htmls you want inject to layout
     options: {
       layout: layoutHtmlPath // the path of default layout html
